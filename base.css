@@ -1,0 +1,60 @@
+
+/* reset css */
+*,
+::before,
+::after{
+
+	margin: 0;
+	padding: 0;
+
+	/*清除移动端默认，点亮高亮效果*/
+	-webkit-tap-highlight-color: transparent;
+
+	/*移动端以边框开始计算宽度*/
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body{
+	font-size: 14px;
+	font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+	color: #333;
+}
+
+a{
+	color: #333;
+}
+a:hover{
+	text-decoration: none;
+}
+input{
+	border: none;
+	outline: none;
+
+	/*清除移动端默认的表单样式*/
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+/* 公用 */
+.f_left{
+	float: left;
+}
+.f_right{
+	float: right;
+}
+
+.clearfix::before,
+.clearfix::after{
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: none;
+	visibility: hidden;
+	clear: both;
+}
+
+
+
+
+
