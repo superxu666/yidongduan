@@ -129,6 +129,7 @@ body{
 }
 .jd_nav>ul{
 	width: 100%;
+	padding: 10px 0;
 }
 .jd_nav>ul>li{
 	width: 20%;
@@ -146,6 +147,8 @@ body{
 .jd_nav>ul>li>a>p{
 	text-align: center;
 	color: #000;
+	font-size: 12px;
+	margin: 10px 0;
 }
 
 
