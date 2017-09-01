@@ -77,6 +77,8 @@
 }
 .jd_banner>ul:first-child{
 	width: 1000%;
+	-webkit-transform: translateX(-10%);
+	transform: translateX(-10%);
 }
 .jd_banner>ul:first-child>li{
 	width: 10%;
