@@ -19,7 +19,6 @@ body{
 	height: 40px;
 	width: 100%;
 	z-index: 1000;
-	box-shadow: 0 0 10px #000;
 }
 .jd_header>.jd_header_box{
 	width: 100%;
@@ -29,6 +28,7 @@ body{
 	background: rgba(201,21,35,1);
 	height: 40px;
 	position: relative;
+	box-shadow: 0 0 10px #000;
 }
 .jd_header>.jd_header_box>.icon_logo{
 	width: 60px;
