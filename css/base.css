@@ -23,6 +23,7 @@ body{
 
 a{
 	color: #333;
+	text-decoration: none;
 }
 a:hover{
 	text-decoration: none;
@@ -52,6 +53,11 @@ input{
 	display: none;
 	visibility: hidden;
 	clear: both;
+}
+[class^="icon_"]{
+
+	background: url("../images/jd-sprites.png") no-repeat;
+	background-size: 200px 200px;
 }
 
 
