@@ -126,6 +126,8 @@ body{
 /*导航栏模块*/
 .jd_nav{
 	width: 100%;
+	background: #fff;
+	border-bottom: 1px solid #e0e0e0;
 }
 .jd_nav>ul{
 	width: 100%;
@@ -150,5 +152,129 @@ body{
 	font-size: 12px;
 	margin: 10px 0;
 }
+
+/*商品模块*/
+
+.jd_product{
+	padding: 0 5px;
+}
+.jd_product>.product_box{
+	width: 100%;
+	background: #fff;
+	margin-top: 10px;
+	box-shadow: 0 0 1px #e0e0e0;
+}
+.jd_product>.product_box>.product_box_tit{
+
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 1px solid #e0e0e0;
+}
+.jd_product>.product_box>.product_box_tit.no_border{
+	border-bottom: none;
+}
+.jd_product>.product_box>.product_box_tit>h3{
+	font-weight: normal;
+	font-size: 15px;
+	padding-left: 25px;
+	position: relative;
+	color: #666;
+}
+.jd_product>.product_box>.product_box_tit>h3::before{
+	/*
+	转换块
+	display: block;
+	position: absolute;
+	float: left;
+	*/
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 3px;
+	height: 12px;
+	background: #d8505c;
+}
+
+
+/*掌上秒杀*/
+.jd_sk{}
+.jd_sk .sk_icon{
+	background: url("../images/jd-sprites.png") no-repeat;
+	background-size: 200px 200px;
+	background-position: -84px -109px;
+	width: 17px;
+	height: 22px;
+	float: left;
+	margin-top: 4px;
+}
+.jd_sk .sk_name{
+	color: #d8505c;
+	font-size: 15px;
+	float: left;
+}
+.jd_sk .sk_time{
+	float: left;
+	margin-top: 8px;
+}
+.jd_sk .sk_time>span{
+	float: left;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	background: #333;
+	color: #fff;
+	margin-left: 3px;
+}
+.jd_sk .sk_time>span:nth-child(3n){
+	background: #fff;
+	color: #333;
+	width: 5px;
+}
+
+.jd_sk .product_box_con>ul{
+	width: 100%;
+	font-size: 12px;
+	padding: 10px 0;
+}
+.jd_sk .product_box_con>ul>li{
+	width: 33.333333%;
+	float: left;
+	text-align: center;
+}
+.jd_sk .product_box_con>ul>li>a{
+	width: 100%;
+	display: block;
+	border-right: 1px solid #e0e0e0;
+}
+.jd_sk .product_box_con>ul>li:last-chlid >a{
+	border-right: none;
+}
+.jd_sk .product_box_con>ul>li>a>img{
+	width: 64%;
+	display: block;
+	margin: 0 auto;
+}
+.jd_sk .product_box_con>ul>li>p:first-of-type{
+	color: #d8505c;
+	padding: 5px;
+}
+.jd_sk .product_box_con>ul>li>p:last-of-type{
+	text-decoration: line-through;
+	color: #666;
+	padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
