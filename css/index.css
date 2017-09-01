@@ -68,5 +68,29 @@
 	left: 85px;
 }
 
+/*轮播图*/
+.jd_banner{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.jd_banner>ul{
+	width: 1000%;
+}
+.jd_banner>ul>li{
+	width: 10%;
+	float: left;
+}
+.jd_banner>ul>li>a{
+	width: 100%;
+	display: block;
+}
+.jd_banner>ul>li>a>img{
+	width: 100%;
+}
+
+
+
+
 
 
