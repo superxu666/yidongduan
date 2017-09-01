@@ -19,13 +19,14 @@ body{
 	height: 40px;
 	width: 100%;
 	z-index: 1000;
+	box-shadow: 0 0 10px #000;
 }
 .jd_header>.jd_header_box{
 	width: 100%;
 	max-width: 640px;
 	min-width: 300px;
 	margin: 0 auto;
-	background: rgba(201,21,35,0);
+	background: rgba(201,21,35,1);
 	height: 40px;
 	position: relative;
 }
@@ -265,6 +266,31 @@ body{
 	color: #666;
 	padding: 5px;
 }
+
+
+/*组合样式*/
+.w_50{
+	width: 50%;
+	display: block;
+}
+.w_50>img{
+	display: block;
+	width: 100%;
+}
+.b_left{
+	border-left: 1px solid #e0e0e0;
+}
+.b_right{
+	border-right: 1px solid #e0e0e0;
+}
+.b_bottom{
+	border-bottom: 1px solid #e0e0e0;
+}
+
+
+
+
+
 
 
 
