@@ -203,6 +203,24 @@
 
 
 	</div>
+<script type="text/javascript">
+	
+window.onload=function(){
 
+	var all = document.getElementsByTagName("a");
+	var len=all.length;
+
+	for (var i = 0; i < len; i++) {
+
+		all[i].onclick=function(){
+
+			alert("练手项目，没有链接，请多包涵！");
+			return false;
+		}
+	}
+
+
+}
+</script>
 </body>
 </html>
