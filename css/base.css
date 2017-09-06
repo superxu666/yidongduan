@@ -59,7 +59,7 @@ input{
 }
 [class^="icon_"]{
 
-	background: url("../images/jd-sprites.png") no-repeat;
+	background: url("..images/jd-sprites.png") no-repeat;
 	background-size: 200px 200px;
 }
 .m_l10{

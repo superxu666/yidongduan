@@ -1,0 +1,317 @@
+
+
+*{
+	padding: 0;
+	margin: 0;
+
+	/*清除移动端默认，点亮高亮效果*/
+	-webkit-tap-highlight-color: transparent;
+
+	/*移动端以边框开始计算宽度*/
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+
+body{
+	font-size: 14px;
+	font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+	color: #333;
+}
+li{
+	list-style: none;
+}
+
+a{
+	color: #333;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+input{
+	border: none;
+	outline: none;
+
+	/*清除移动端默认的表单样式*/
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+/* 公用 */
+.f_left{
+	float: left;
+}
+.f_right{
+	float: right;
+}
+
+.clearfix::before,
+.clearfix::after{
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tm_layout{
+	width: 100%;
+	max-width: 750px;
+	min-width: 300px;
+	margin: 0 auto;
+	position: relative;
+}
+.tm_header img{
+	width: 100%;
+}
+
+.tm_content{
+	width: 100%;
+}
+
+
+.content_box .content_tit{
+	border-bottom: 1px solid #e5e5e5;
+	margin: 0 10px;
+}
+
+
+
+.tit_icon{
+	background:url("../iamges/icon_time.png") no-repeat;
+	background-size: 25px 27px;
+	width: 25px;
+	height: 27px;
+}
+
+.tit_icon2{
+	background:url("../iamges/icon_nice.png") no-repeat;
+	background-size: 29px 25px;
+	width: 29px;
+	height: 25px;
+}
+
+.tit_icon3{
+	background:url("../iamges/icon_car.png") no-repeat;
+	background-size: 28px 25px;
+	width: 28px;
+	height: 25px;
+}
+
+.tit_icon,
+.tit_icon2,
+.tit_icon3{
+	float: left;
+	margin: 12px 0;
+}
+
+.content_box{
+	border-bottom: 1px solid #e5e5e5;
+}
+.content_box:last-child{
+	border-bottom: none;
+}
+
+.content_box .content_tit .tit_text{
+	float: left;
+	margin-top: 12px;
+	margin-left: 10px;
+	line-height: 27px;
+	height: 27px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.content_box .content_tit .tit_time{
+	float: right;
+	margin-top: 12px;
+	line-height: 27px;
+	height: 27px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.content_box .content_tit .tit_time span:first-child{
+
+	font-weight: normal;
+}
+
+.content_box .content_more{
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 15px;
+}
+
+.content_box .content_main{
+
+	padding-bottom: 15px;
+}
+.content_box .content_main .product_box{
+	display: block;
+	position: relative;
+	border-bottom: 1px solid #e5e5e5;
+	margin: 0 10px 0;
+	padding-bottom: 40px;
+}
+
+.content_box .content_main .product_box:nth-last-of-type(1){
+
+	border-bottom: none;
+}
+
+.product_box .buy_btn{
+
+	position: absolute;
+	width: 18.66%;
+	color: #fff;
+	background: #e31436;
+	border-radius: 2px;
+	right: 2.66%;
+	bottom: 8%;
+	font-size: 13px;
+	text-align: center;
+	padding: 8px 0;
+}
+
+
+.product_box .product_icon{
+	float: left;
+	width: 32%;
+}
+
+.product_box .product_icon img{
+	vertical-align: middle;
+	width: 100%;
+}
+
+.product_box .product_des{
+	
+	float: left;
+	width: 67%;
+}
+
+.product_des .p0{
+	font-size: 18px;
+	color: #333333;
+	padding: 10px 0 5px 0;
+}
+
+.product_des .p1{
+	font-size: 18px;
+	color: #e31436;
+}
+.product_des .p2{
+	color: #666666;
+	font-size: 15px;
+	text-decoration: line-through;
+}
+.product_des .p3{
+
+	margin-top: 5px;
+	font-size: 12px;
+	width: 30%;
+	min-width: 20%;
+	text-align: center;
+	color: #e31436;
+	border: 1px solid #e31436;
+	border-radius: 13px;
+}
+
+.bottom_ad{
+	width: 100%;
+	height: 62px;
+	background: rgba(36,34,49,.88);
+	color: #fff;
+	padding: 10px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+
+.bottom_ad img{
+	width: 43px;
+	position: absolute;
+	top: 50%;
+	transform: translate(0,-50%);
+}
+
+.bottom_ad p{
+	padding-left: 43;
+}
+
+.bottom_ad a{
+
+	color: #fff;
+	position: absolute;
+	right: 20px;
+	display: block;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	text-align: center;
+	height: 29px;
+	line-height: 29px;
+	width: 17.33%;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

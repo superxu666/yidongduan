@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>菜鸟教程(runoob.com)</title>
+        <link href="https://cdn.bootcss.com/ionic/1.3.2/css/ionic.css" rel="stylesheet">
+        <script src="https://cdn.bootcss.com/ionic/1.3.2/js/ionic.bundle.min.js"></script>
+        <style type="text/css">
+          
+          .box{
+            width: 100%;
+            height: 100%;
+            background: yellowgreen;
+          }
+        </style>
+    </head>
+    <body ng-app="todo">
+    <ion-side-menus>
+
+    <!-- 中心内容 -->
+    <ion-side-menu-content>
+      <ion-header-bar class="bar-dark">
+        <h1 class="title">Todo</h1>
+      </ion-header-bar>
+      <ion-content>
+      </ion-content>
+    </ion-side-menu-content>
+
+    <!-- 左侧菜单 -->
+    <ion-side-menu side="left">
+      <ion-header-bar class="bar-dark" id="headerbar">
+        <h1 class="title">Projects</h1>
+      </ion-header-bar>
+
+        <div class="box"></div>
+    </ion-side-menu>
+
+
+    </ion-side-menus>
+    <script src="http://www.runoob.com/static/ionic/js/app.js"></script>
+    <script src="cordova.js"></script>
+
+    <script type="text/javascript">
+      
+      var h = document.getElementById("headerbar");
+      console.log(document.outerHeight);
+    </script>
+</body>
+</html>
